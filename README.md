@@ -1,3 +1,5 @@
+# 🤪
+
 <h1 align="center">
   <br>
   <a href="https://sm.ms/image/nLxuReH6v8jrbht" target="_blank"><img src="https://s2.loli.net/2022/07/09/j1Kl7Cia2FdgGND.jpg" alt="硫没有正七价" width="200"></a>
@@ -61,3 +63,10 @@ git clone https://github.com/wendaidai/Wiki
 
 > [!tip]
 > 本 Wiki 支持引用高亮
+
+<span id="busuanzi_container_site_pv" style='display:none'>
+    👀 本站总访问量：<span id="busuanzi_value_site_pv"></span> 次
+</span>
+<span id="busuanzi_container_site_uv" style='display:none'>
+    | 🚴‍♂️ 本站总访客数：<span id="busuanzi_value_site_uv"></span> 人
+</span>
