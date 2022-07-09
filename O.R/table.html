@@ -1,0 +1,60 @@
+<!-- 单纯形法与对偶单纯形法的比较 -->
+<table border="1" style="margin: auto；" width='80%'>
+    <tr>
+        <td></td>
+        <td style="text-align:center"><b>单纯形法</b></td>
+        <td style="text-align:center"><b>对偶单纯形法</b></td>
+    </tr>
+    <tr>
+        <td style="text-align:center">原理</td>
+        <td style="text-align:center">保证原问题是可行解的情况下
+            向对偶问题可行的方向迭代
+        </td>
+        <td style="text-align:center">保证对偶问题是可行解的情况下
+            向原问题可行的方向迭代</td>
+    </tr>
+    <tr>
+        <td style="text-align:center">限制条件</td>
+        <td style="text-align:center">单纯形表的 <i>b ≥ 0</i>（找到基可行解）</td>
+        <td style="text-align:center">检验数字 <i>σ ≤ 0</i></td>
+    </tr>
+    <tr>
+        <td style="text-align:center">最优解判断</td>
+        <td style="text-align:center">看非基变量的检验数是否都 <i>≤ 0</i></td>
+        <td style="text-align:center">看对偶单纯形表的 <i>b </i>是否都 <i>≥ 0</i></td>
+    </tr>
+    <tr>
+        <td style="text-align:center">变量替换</td>
+        <td style="text-align:center">先确定入基变量，最小换最大</td>
+        <td style="text-align:center">先确定换出变量，最小换最大</td>
+    </tr>
+</table>
+
+<!-- 目标规划与线性规划模型的差异 -->
+<table  border="1" style="margin: auto；" width='80%'>
+    <tr>
+        <td></td>
+        <td style="text-align:center"><b>线性规划模型</b></td>
+        <td style="text-align:center"><b>目标规划模型</b></td>
+    </tr>
+    <tr>
+        <td style="text-align:center">变量</td>
+        <td style="text-align:center">只含决策变量</td>
+        <td style="text-align:center">分决策变量与偏差变量</td>
+    </tr>
+    <tr>
+        <td style="text-align:center">约束条件</td>
+        <td style="text-align:center">系统（刚性）约束</td>
+        <td style="text-align:center">分系统约束和目标约束</td>
+    </tr>
+    <tr>
+        <td style="text-align:center">目标函数</td>
+        <td style="text-align:center">为决策变量的函数</td>
+        <td style="text-align:center">为偏差变量的函数，并按优先级、权系数区分重要程度</td>
+    </tr>
+    <tr>
+        <td style="text-align:center">求解结果</td>
+        <td style="text-align:center">寻找最优解（有可能无可行解）</td>
+        <td style="text-align:center">寻找满意解</td>
+    </tr>
+</table>
