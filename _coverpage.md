@@ -1,6 +1,7 @@
 <!-- _coverpage.md -->
 
- <img src="/_media/mvp.png" width = "300" height = "180" alt="图片名称" align=center />
+ <img src="https://s2.loli.net/2022/07/10/I9NMqPcJVi3tUj2.webp" width = "300" height = "180" alt="图片名称" align=center />
+ 
 
 # 硫没有正七价 <small>WJJ</small>
 
