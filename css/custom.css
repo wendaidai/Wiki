@@ -153,7 +153,7 @@ aside.sidebar ul li.active > a:before {
 } */
 /* 代码块 */
 .markdown-section pre>code {
-    color: #c0c3c1 !important;
+    /* color: #c0c3c1 !important; */
     font-family: 'Inconsolata', consolas,"PingFang SC", "Microsoft YaHei", monospace !important;
     /* background-color: #282c34 !important;     */
     font-size: 15px !important;
