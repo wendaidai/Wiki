@@ -74,14 +74,21 @@ aside.sidebar ul li.active > a:before {
 } */
 
 /*滚动条样式 start*/
-/* 滚动条宽度 */
-::-webkit-scrollbar{width:5px;}
-/* 滚动条颜色 */
-::-webkit-scrollbar-thumb{
-    background: #33a9dc;
-    background-image: linear-gradient(#6ecd56, #33a9dc, #cb6196, #c16290);
-    border-radius: 2em;
+
+/**彩色滚动条样式开始*/
+::-webkit-scrollbar {
+width: 10px;  
+height: 1px;
 }
+::-webkit-scrollbar-thumb {
+background-color: #12b7f5;
+background-image: -webkit-linear-gradient(45deg, rgba(255, 93, 143, 1) 25%, transparent 25%, transparent 50%, rgba(255, 93, 143, 1) 50%, rgba(255, 93, 143, 1) 75%, transparent 75%, transparent);
+}
+/* ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: #f6f6f6;
+} */
+/**彩色滚动条样式结束*/
 
 /* 加粗 */
 .markdown-section strong {
@@ -166,7 +173,7 @@ aside.sidebar ul li.active > a:before {
 }
 /* 代码块 */
 markdown-section code, .markdown-section pre {
-    /* background-color: #282c34; */
+    background-color: #282c34;
 }
 .token.directive.keyword{
     color: #4faee2 !important;
