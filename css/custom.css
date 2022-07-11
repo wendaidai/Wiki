@@ -1,28 +1,45 @@
 /* 文本样式 */
+
+.app-name-link{
+    font-family: STXingkai;
+}
+
+.anchor{
+    font-family: STLiti;
+}
+
 body{
     /* font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;    */
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 18px;
     color: #2c3e50;
+} 
+
+/* h1,h2,h3,h4,h5,h6{
+    font-family: STXingkai;
+} */
+
+h2 span::before{
+    content: "🍨";
 }
 
 /* h2字体设置 */
-/* h2 span{
-    display:inline-block;
-    background: rgb(176,224,230);
-    color:#B0E0E6;
+h2 span{
+    display: block;
+    /* background: rgb(228, 217, 223); */
+    /* color:#B0E0E6; */
     padding: 10px 16px;
-    border-radius:5px;
+    /* border-radius:5px; */
     box-shadow: 1px 1px 3px pink;
-    font-size: 22px;
-} */
+    /* font-size: 22px; */
+}
 
 /* h3字体设置 */
-h3 span{
+/* h3 span{
     font-size: 18px;
-}
+} */
 
 /* 导航栏(不会因下拉而消失) */
 .app-nav {
@@ -71,28 +88,41 @@ aside.sidebar ul li.active > a:before {
     border-radius: 50% !important;
     background-color: #fed24a !important;
     box-shadow: 0 0 0 3px rgba(254, 210, 74, 0.4) !important;
-} */
+} 
 
 /*滚动条样式 start*/
 
 /**彩色滚动条样式开始*/
 ::-webkit-scrollbar {
-width: 10px;  
-height: 1px;
+width: 7px;  
+height: 0.5px;
 }
 ::-webkit-scrollbar-thumb {
 background-color: #12b7f5;
-background-image: -webkit-linear-gradient(45deg, rgba(255, 93, 143, 1) 25%, transparent 25%, transparent 50%, rgba(255, 93, 143, 1) 50%, rgba(255, 93, 143, 1) 75%, transparent 75%, transparent);
+background-image: -webkit-linear-gradient(45deg, #FFC0CB 25%, transparent 25%, transparent 50%, #FFC0CB 50%,#FFC0CB 75%, transparent 75%, transparent);
 }
 /* ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
     background: #f6f6f6;
 } */
+/* ::-webkit-scrollbar {
+display: block;
+}
+    
+::-webkit-scrollbar {
+width: 7px;
+height: 1px;
+}
+    
+::-webkit-scrollbar-thumb {
+background-color: #735925;
+background-image: -webkit-linear-gradient(45deg, #77c85a 25%, #03a9f4 25%, #9755c1 50%, #ff9800 50%, #ffeb3b 75%, #ff5722 75%, #ce7d61);
+} */
 /**彩色滚动条样式结束*/
 
 /* 加粗 */
 .markdown-section strong {
-    color: rgb(0,123,232);
+    color: rgb(0,123,232) !important;
     font-weight: bolder;
 }
 
@@ -133,9 +163,14 @@ background-image: -webkit-linear-gradient(45deg, rgba(255, 93, 143, 1) 25%, tran
 
 /* 引用块 */
 .markdown-section blockquote{
-    background: rgb(176,224,230);
+    background: white;
+    border-left: 5px solid #FFC0CB !important;
     padding:10px;
     border-radius:10px;
+}
+
+.markdown-section blockquote::before{
+    content: "🍒";
 }
 /* 代码块 */
 /* .markdown-section pre {
@@ -220,3 +255,4 @@ markdown-section code, .markdown-section pre {
 img, pre {
     border-radius: 8px;
 }
+

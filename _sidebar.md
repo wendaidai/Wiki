@@ -12,7 +12,7 @@
     - [4. 整数规划](/O.R/4.integer_programming.md)
     - [5. 目标规划](/O.R/5.goal_programming.md)
     - [6. 图和网络](/O.R/6.Graph_and_Network_analysis.md)
-- 数据结构
+- 算法与数据结构
   - 算法基础
     - 排序
       - [选择排序](/DS_AL/AL_Base/sort/1、selection_sort.md)
@@ -31,4 +31,4 @@
     - [哈希表](/DS_AL/DS/hash_table.md)
     - [并查集](/DS_AL/DS/union_find.md)
 - 计算机网络
-  - [概述]
+  - [概述](/Network/1.overview.md)

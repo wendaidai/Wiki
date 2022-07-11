@@ -46,11 +46,11 @@ git clone https://github.com/wendaidai/Wiki
 ## Content
 本 Wiki 包含以下内容的知识点
 - 数学
-  - 高数
-  - 数值分析
-  - 运筹学
-- 数据结构
-- 计算机网络
+  - [高数](/Additional_Math/01-propaedeutics.md)
+  - [数值分析](Computing_Method/exam.md)
+  - [运筹学](O.R/1.simplex_algorithm.md)
+- [算法与数据结构](/DS_AL/DS/linked_list.md)
+- [计算机网络](/Network/1.overview.md)
 - 持续更新...
 
 ## Contact
