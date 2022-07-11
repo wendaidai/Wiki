@@ -1,34 +1,34 @@
 <!-- 侧边栏 docs/_sidebar.md -->
-- 数学
-  - 高数
+- 🍧数学
+  - 🍉高数
     - [1. 高数预备知识](/Additional_Math/01-propaedeutics.md)
     - [2. 数列极限](/Additional_Math/02-Sequence_limit.md)
-  - 数值分析
+  - 🍒数值分析
     - [公式速记](Computing_Method/exam.md)
-  - 运筹学
+  - 🍿运筹学
     - [1. 单纯形法](O.R/1.simplex_algorithm.md)
     - [2. 对偶理论](/O.R/2.duality_theory.md)
     - [3. 运输问题](/O.R/3.transportation_problem.md)
     - [4. 整数规划](/O.R/4.integer_programming.md)
     - [5. 目标规划](/O.R/5.goal_programming.md)
     - [6. 图和网络](/O.R/6.Graph_and_Network_analysis.md)
-- 算法与数据结构
-  - 算法基础
-    - 排序
+- 🍚算法与数据结构
+  - 🍰算法基础
+    - 🍜排序
       - [选择排序](/DS_AL/AL_Base/sort/1、selection_sort.md)
       - [冒泡排序](/DS_AL/AL_Base/sort/2、bubble_sort.md)
       - [插入排序](/DS_AL/AL_Base/sort/3、insertion_sort.md)
       - [计数排序](/DS_AL/AL_Base/sort/4、counting_sort.md)
       - [快速排序](/DS_AL/AL_Base/sort/5、quick_sort.md)
       - [归并排序](/DS_AL/AL_Base/sort/6、merge_sort.md)
-    - 前缀和&差分
+    - 🍩前缀和&差分
       - [前缀和&差分](/DS_AL/AL_Base/prefix_sum&difference/partial_sum&difference.md)
-  - 数据结构
+  - 🍖数据结构
     - [链表](/DS_AL/DS/linked_list.md)
     - [栈](/DS_AL/DS/stack.md)
     - [队列](/DS_AL/DS/queue.md)
     - [堆](/DS_AL/DS/heap.md)
     - [哈希表](/DS_AL/DS/hash_table.md)
     - [并查集](/DS_AL/DS/union_find.md)
-- 计算机网络
+- 🐬计算机网络
   - [概述](/Network/1.overview.md)
