@@ -5,7 +5,7 @@
 }
 
 .anchor{
-    font-family: STLiti;
+    font-family: STKaiTi;
 }
 
 body{
@@ -122,7 +122,8 @@ background-image: -webkit-linear-gradient(45deg, #77c85a 25%, #03a9f4 25%, #9755
 
 /* 加粗 */
 .markdown-section strong {
-    color: rgb(0,123,232) !important;
+    /* color: rgb(0,123,232) !important; */
+    color: #1E90FF !important;
     font-weight: bolder;
 }
 
@@ -137,13 +138,13 @@ background-image: -webkit-linear-gradient(45deg, #77c85a 25%, #03a9f4 25%, #9755
 }
 
 /* 无序列表 */
-/* .markdown-section ul {
+.markdown-section ul {
     margin-left: 28px;
 }
 
 .markdown-section ul li {
     padding-top: 4px;
-} */
+}
 
 /* 表格 */
 .markdown-section tr:nth-child(2n) {
@@ -165,13 +166,13 @@ background-image: -webkit-linear-gradient(45deg, #77c85a 25%, #03a9f4 25%, #9755
 .markdown-section blockquote{
     background: white;
     border-left: 5px solid #FFC0CB !important;
-    padding:10px;
+    padding:5px;
     border-radius:10px;
 }
 
-.markdown-section blockquote::before{
+/* .markdown-section blockquote::before{
     content: "🍒";
-}
+} */
 /* 代码块 */
 /* .markdown-section pre {
     box-shadow: 2px 2px 20px 6px #ddd !important;

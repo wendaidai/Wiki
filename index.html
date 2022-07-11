@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <title>硫没有正七价</title>
   <link rel="shortcut icon" href="ice.png">
-
   <link rel="stylesheet" href="css/custom.css" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
@@ -105,6 +104,12 @@
         pre: '<hr/>',
         style: 'font-size: 18px; text-align: center;',
       },
+      toc: {
+        scope: '.markdown-section',
+        headings: 'h1, h2, h3',
+        title: '目录',
+      },
+
       plugins: [
         /*来必力评论*/
         function (hook, vm) {
@@ -261,7 +266,6 @@
       }
     });
   </script>
-
 </body>
 
 </html>
