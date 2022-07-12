@@ -2,7 +2,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://sm.ms/image/nLxuReH6v8jrbht" target="_blank"><img src="https://s2.loli.net/2022/07/09/j1Kl7Cia2FdgGND.jpg" alt="硫没有正七价" width="200"></a>
+  <a href="" target="_blank"><img src="/logo.jpg" alt="硫没有正七价" width="200"></a>
   <br>
   硫没有正七价
   <br>

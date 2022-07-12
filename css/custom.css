@@ -8,14 +8,32 @@
     font-family: STKaiTi;
 }
 
-body{
-    /* font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;    */
+.cover{
+    background: url(/shoot.jpg)no-repeat center center fixed!important;
+    background-size: 100% 120% !important;
+    
+}
+
+.body{
+    /* font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;   
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-size: 18px;
-    color: #2c3e50;
-} 
+    font-size: 15px;
+    color: #2c3e50; */
+    /* background: url(/three.jpg) no-repeat center center fixed;
+    background-size: cover; */
+    opacity: 1.0;
+    background-color: gainsboro;
+}
+
+.sidebar{
+    background-color: gainsboro !important;
+}
+
+.sidebar-toggle{
+    background-color: gainsboro !important;
+}
 
 /* h1,h2,h3,h4,h5,h6{
     font-family: STXingkai;
@@ -24,6 +42,11 @@ body{
 h2 span::before{
     content: "🍨";
 }
+
+h3 span::before{
+    content: "🍒";
+}
+
 
 /* h2字体设置 */
 h2 span{

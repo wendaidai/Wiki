@@ -33,7 +33,7 @@
   <link href="_themes/prism/prism-one-light.css" rel="stylesheet" />
 </head>
 
-<body>
+<body class="body">
   <!-- <div id="app"></div> -->
   <div id="app">🏃‍🏃‍🏃‍💨加载中...</div>
 
@@ -46,7 +46,7 @@
       // mergeNavbar: true, // 小屏设备下合并导航栏到侧边栏
       coverpage: true, // 封面
       auto2top: true,
-      // logo: '/_media/mvp.png',
+      // logo: './logo.jpg',
       onlycover: false,
       themeColor: '#1E90FF',
       search: {
@@ -209,7 +209,7 @@
     microseconds - 0-999之间的整数，做为date对象的毫秒数 */
 
     /* 建站时间 */
-    var t1 = Date.UTC(2022, 07, 08, 00, 00, 00); 
+    var t1 = Date.UTC(2022, 0, 08, 00, 00, 00); 
     var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
     var diff = t2 - t1;
     var diffYears = Math.floor(diff / years);
@@ -280,6 +280,10 @@
   </script> -->
   <!-- 目录 -->
   <script src="https://unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script>
+  <!-- 樱花 -->
+  <script src="/js/sakura.js"></script>
+  <!-- line -->
+  <script src="/js/line.js"></script>
 
 </body>
 
