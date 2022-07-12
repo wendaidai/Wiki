@@ -198,7 +198,7 @@ background-image: -webkit-linear-gradient(45deg, #77c85a 25%, #03a9f4 25%, #9755
 
 /* 引用块 */
 .markdown-section blockquote{
-    background: white;
+    background: gainsboro;
     border-left: 5px solid #FFC0CB !important;
     padding:5px;
     border-radius:10px;
@@ -214,19 +214,6 @@ background-image: -webkit-linear-gradient(45deg, #77c85a 25%, #03a9f4 25%, #9755
 
 /* 代码块 */
 .markdown-section pre:before {
-    /* content: '';
-    display: block;
-    background: url(https://sm.ms/image/5wPVhKIskcMiR1f); 
-    height: 30px;
-    width: 100%;
-    background-size: 40px;
-    background-repeat: no-repeat;
-    background-color: #282c34;
-    margin-bottom: -7px;
-    margin-top: 10px;
-    margin-left: -px;
-    border-radius: 5px;
-    background-position: 10px 10px; */
     content: "";
     position: absolute !important;
     -webkit-border-radius: 50% !important;
@@ -242,15 +229,6 @@ background-image: -webkit-linear-gradient(45deg, #77c85a 25%, #03a9f4 25%, #9755
 }
 /* 代码块 */
 .markdown-section pre>code {
-    /* color: #c0c3c1 !important;
-    font-family: 'Inconsolata', consolas,"PingFang SC", "Microsoft YaHei", monospace !important;
-    background-color: #282c34 !important;    
-    font-size: 15px !important;
-    white-space: pre !important;
-    line-height: 1.5 !important;
-    -moz-tab-size: 4 !important;
-    -o-tab-size: 4 !important;
-    tab-size: 4 !important; */
     background-color: #312d2d !important ;
     color: #fafafad7 !important ;
     padding: 32px 16px 18px 16px !important;
@@ -313,4 +291,3 @@ markdown-section code, .markdown-section pre {
 img, pre {
     border-radius: 8px;
 }
-
