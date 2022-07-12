@@ -2,7 +2,7 @@
 
 <h1 align="center">
   <br>
-  <a href="" target="_blank"><img src="./logo.jpg" alt="硫没有正七价" width="200"></a>
+  <a href="" target="_blank"><img src="logo.jpg" alt="硫没有正七价" width="200"></a>
   <br>
   硫没有正七价
   <br>
