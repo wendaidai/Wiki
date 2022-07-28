@@ -11,7 +11,11 @@
 .cover{
     background: url(../shoot.jpg) no-repeat center center fixed!important;
     background-size: 100% 120% !important;
-    
+    font-weight: bolder;
+}
+
+#硫没有正七价-wjj{
+    font-weight: bolder;
 }
 
 .body{
@@ -29,6 +33,8 @@
 
 .sidebar{
     background-color: gainsboro !important;
+    font-family: STKaiTi;
+    font-weight: bolder;
 }
 
 .sidebar-toggle{
@@ -55,14 +61,14 @@ h2 span{
     /* color:#B0E0E6; */
     padding: 10px 16px;
     /* border-radius:5px; */
-    box-shadow: 1px 1px 3px pink;
+    box-shadow: 5px 5px 10px pink;
     /* font-size: 22px; */
 }
 
 h3 span{
     display: block;
     padding: 8px 12px;
-    box-shadow:  1px 1px 3px#53b5d9;
+    box-shadow:  5px 5px 10px#53b5d9;
 }
 
 /* h3字体设置 */
@@ -123,12 +129,25 @@ aside.sidebar ul li.active > a {
 
 /**彩色滚动条样式开始*/
 ::-webkit-scrollbar {
-width: 7px;  
+width: 10px;  
 height: 0.5px;
 }
 ::-webkit-scrollbar-thumb {
-background-color: #12b7f5;
-background-image: -webkit-linear-gradient(45deg, #FFC0CB 25%, transparent 25%, transparent 50%, #FFC0CB 50%,#FFC0CB 75%, transparent 75%, transparent);
+    background-color: #12b7f5;
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    border-radius: 10px;
+    background-image: -webkit-linear-gradient(45deg, #FFC0CB 25%, transparent 25%, transparent 50%, #FFC0CB 50%,#FFC0CB 75%, transparent 75%, transparent);
+}
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 10px rgba(0,0,0,.3);
+    background-color: transparent;
+    border-radius: 8px; 
+}
+
+::-webkit-scrollbar-button {
+    height: 5px;
+    width: 10px;
+    background-color:cyan;
 }
 /* ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
@@ -233,7 +252,7 @@ background-image: -webkit-linear-gradient(45deg, #77c85a 25%, #03a9f4 25%, #9755
     color: #fafafad7 !important ;
     padding: 32px 16px 18px 16px !important;
     overflow-x: auto !important;
-    font-size: 16px;
+    font-size: 14px !important;
     position: relative !important;
     border-radius: 5px;
     line-height: 1.6;
@@ -249,10 +268,13 @@ markdown-section code, .markdown-section pre {
 }
 .token.directive.keyword{
     color: #4faee2 !important;
+    font-weight: bold;
 }
 
 .token.keyword{
-    color: #c678dd !important;
+    /* color: #c678dd !important; */
+    color: 	#FFB6C1 !important;
+    font-weight: bolder;
 }
 
 .token.comment{
@@ -275,7 +297,9 @@ markdown-section code, .markdown-section pre {
 }
 
 .token.function{
-    color: #e6b456 !important;
+    /* color: #e6b456 !important; */
+    color: #12b7f5 !important;
+    font-weight: bold;
 }
 .token.string{
     color: #98b755 !important;
