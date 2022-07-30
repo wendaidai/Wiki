@@ -1,7 +1,6 @@
 .markdown-section code{
-    color: #12b7f5 !important;
-    font-weight: bold !important;
     padding: 1px 5px !important;
+    color: #12b7f5 !important;
 }
 
 .app-name-link{
@@ -232,7 +231,7 @@ background-image: -webkit-linear-gradient(45deg, #77c85a 25%, #03a9f4 25%, #9755
 } */
 /* 代码块 */
 .markdown-section pre {
-    box-shadow: 2px 2px 20px 6px #ddd !important;
+    box-shadow: 2px 2px 20px 6px rgb(248, 248, 242) !important;
 }
 
 /* 代码块 */
@@ -252,72 +251,65 @@ background-image: -webkit-linear-gradient(45deg, #77c85a 25%, #03a9f4 25%, #9755
 }
 /* 代码块 */
 .markdown-section pre>code {
-    background-color: #312d2d !important ;
-    color: #fafafad7 !important ;
+    background-color: rgb(40, 42, 54) !important ;
+    color: rgb(248, 248, 242) !important ;
     padding: 32px 16px 18px 16px !important;
-    overflow-x: auto !important;
+    overflow-y: auto !important;
+    max-height: 700px !important;
     font-size: 14px !important;
     position: relative !important;
     border-radius: 5px;
     line-height: 1.6;
     margin-bottom: 1.6em;
     max-width: 100%;
-    overflow: auto !important;
+    overflow-x: hidden !important;
+    /* overflow: auto !important; */
     text-shadow: none !important;
-    box-shadow: 0 10px 30px 0px #312d2d !important;
-}
-/* 代码块 */
-markdown-section code, .markdown-section pre {
-    background-color: #312d2d !important;
-}
-.token.directive.keyword{
-    color: #4faee2 !important;
-    font-weight: bold;
+    box-shadow: 0 10px 30px 0px rgb(40, 42, 54) !important;
 }
 
-.token.boolean{
-    color: 	#FFB6C1 !important;
+/* highlight */
+markdown-section code, .markdown-section pre {
+    /* background-color: #312d2d !important; */
+    background-color: rgb(40, 42, 54) !important;
 }
 
 .token.keyword{
     /* color: #c678dd !important; */
-    color: #12b7f5 !important;
-    font-weight: bolder;
+    color: rgb(255, 121, 198) !important;
 }
 
-.token.comment{
-    color: #737c8b !important;
-}
-
-.token.tag{
-    color: #a589ad !important;
-}
-
-.token.attr-name{
-    color: #de916c !important;
-}
-.token.attr-value{
-    color: #4faee2 !important;
-}
-
-.token.macro.property{
-    color: #4faee2 !important;
+.token.operator{
+    color: rgb(189, 147, 249) !important;
 }
 
 .token.function{
     /* color: #e6b456 !important; */
-    color: 	#FFB6C1 !important;
-    font-weight: bold;
+    color: 	rgb(80, 250, 123) !important;
 }
-.token.string{
-    color: #98b755 !important;
+
+.token.namespace{
+    color: rgb(248, 248, 242) !important;
 }
+
 .token.punctuation{
-    color: #c0c3c1 !important;
+    color: rgb(248, 248, 242) !important;
+}
+
+.token.class-name{
+    color: rgb(139, 233, 253) !important;
+}
+
+.token.string{
+    color:rgb(241, 250, 140) !important;
+}
+
+.token.boolean{
+    color: rgb(255, 184, 108) !important;
 }
 
 .token.number{
-    color:#c0c3c1  !important;
+    color: rgb(189, 147, 249) !important;
 }
 
 img, pre {
