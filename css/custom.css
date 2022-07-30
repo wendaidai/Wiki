@@ -1,4 +1,8 @@
-/* 文本样式 */
+.markdown-section code{
+    color: #12b7f5 !important;
+    font-weight: bold !important;
+    padding: 1px 5px !important;
+}
 
 .app-name-link{
     font-family: STXingkai;
@@ -271,9 +275,13 @@ markdown-section code, .markdown-section pre {
     font-weight: bold;
 }
 
+.token.boolean{
+    color: 	#FFB6C1 !important;
+}
+
 .token.keyword{
     /* color: #c678dd !important; */
-    color: 	#FFB6C1 !important;
+    color: #12b7f5 !important;
     font-weight: bolder;
 }
 
@@ -298,7 +306,7 @@ markdown-section code, .markdown-section pre {
 
 .token.function{
     /* color: #e6b456 !important; */
-    color: #12b7f5 !important;
+    color: 	#FFB6C1 !important;
     font-weight: bold;
 }
 .token.string{
